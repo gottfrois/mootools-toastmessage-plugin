@@ -1,30 +1,29 @@
 .toast-container {
-	width: 280px;
-	z-index: 9999;
+  width: 280px;
+  z-index: 9999;
 }
-
 
 * html .toast-container {
-	position: absolute;		
+  position: absolute;
 }
- 
+
 .toast-item {
-	height: auto;
-	background: #333;
-    opacity: 0.9;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	color: #eee;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 6px;
-	padding-right: 6px;
-	font-family: lucida Grande;
-	font-size: 14px;
-	border: 2px solid #999;
-	display: block;
-	position: relative;
-	margin: 0 0 12px 0;
+  height: auto;
+  background: #333;
+  opacity: 0.9;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  color: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-family: lucida Grande;
+  font-size: 14px;
+  border: 2px solid #999;
+  display: block;
+  position: relative;
+  margin: 0 0 12px 0;
 }
 
 .toast-item p {
@@ -42,12 +41,12 @@
 }
 
 .toast-item-image {
-    width:32px;
+    width: 32px;
     height: 32px;
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 10px;
-    float:left;
+    float: left;
 }
 
 .toast-item-image-notice {
@@ -66,20 +65,19 @@
     background:url(../images/error.png);
 }
 
-
-/** 
- * toast types 
- * 
+/**
+ * toast types
+ *
  * pattern: toast-type-[value]
  * where 'value' is the real value of the plugin option 'type'
- * 
+ *
  */
 .toast-type-notice {
-    color: white;    
+    color: white;
 }
 
 .toast-type-success {
-    color: white;    
+    color: white;
 }
 
 .toast-type-warning {
@@ -92,12 +90,12 @@
     border-color: #B32B2B;
 }
 
-/** 
- * positions 
- * 
+/**
+ * positions
+ *
  * pattern: toast-position-[value]
  * where 'value' is the real value of the plugin option 'position'
- * 
+ *
  */
 .toast-position-top-left {
     position: fixed;
